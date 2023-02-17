@@ -11,6 +11,10 @@
 		0248C0F9299CEDB4007BB9AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0248C0F8299CEDB4007BB9AA /* ContentView.swift */; };
 		0248C0FB299CEDB5007BB9AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0248C0FA299CEDB5007BB9AA /* Assets.xcassets */; };
 		0248C0FE299CEDB5007BB9AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0248C0FD299CEDB5007BB9AA /* Preview Assets.xcassets */; };
+		0248C106299CF22A007BB9AA /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0248C105299CF22A007BB9AA /* Users.swift */; };
+		0248C109299CF790007BB9AA /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0248C108299CF790007BB9AA /* Services.swift */; };
+		0248C10C299CF90F007BB9AA /* InterfaceUserList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0248C10B299CF90F007BB9AA /* InterfaceUserList.swift */; };
+		0248C10E299D129F007BB9AA /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0248C10D299D129F007BB9AA /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		0248C0F8299CEDB4007BB9AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0248C0FA299CEDB5007BB9AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0248C0FD299CEDB5007BB9AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0248C105299CF22A007BB9AA /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		0248C108299CF790007BB9AA /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		0248C10B299CF90F007BB9AA /* InterfaceUserList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceUserList.swift; sourceTree = "<group>"; };
+		0248C10D299D129F007BB9AA /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,9 @@
 		0248C0F5299CEDB4007BB9AA /* jsonProject */ = {
 			isa = PBXGroup;
 			children = (
+				0248C10A299CF8F3007BB9AA /* UI */,
+				0248C107299CF766007BB9AA /* ModelView */,
+				0248C104299CF210007BB9AA /* Entities */,
 				0248C0F6299CEDB4007BB9AA /* jsonProjectApp.swift */,
 				0248C0F8299CEDB4007BB9AA /* ContentView.swift */,
 				0248C0FA299CEDB5007BB9AA /* Assets.xcassets */,
@@ -65,6 +76,31 @@
 				0248C0FD299CEDB5007BB9AA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0248C104299CF210007BB9AA /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				0248C105299CF22A007BB9AA /* Users.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		0248C107299CF766007BB9AA /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				0248C108299CF790007BB9AA /* Services.swift */,
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		0248C10A299CF8F3007BB9AA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0248C10B299CF90F007BB9AA /* InterfaceUserList.swift */,
+				0248C10D299D129F007BB9AA /* SignUpView.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +174,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0248C0F9299CEDB4007BB9AA /* ContentView.swift in Sources */,
+				0248C109299CF790007BB9AA /* Services.swift in Sources */,
+				0248C106299CF22A007BB9AA /* Users.swift in Sources */,
 				0248C0F7299CEDB4007BB9AA /* jsonProjectApp.swift in Sources */,
+				0248C10E299D129F007BB9AA /* SignUpView.swift in Sources */,
+				0248C10C299CF90F007BB9AA /* InterfaceUserList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
